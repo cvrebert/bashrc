@@ -9,6 +9,9 @@ __git_ps1()
     fi
 }
 export PS1='\[\e[0;95m\]In \w:\n\[\e[0;37m\]\D{%a %b %e %r}\[\e[0m\] \[\e[0;96m\]\u\[\e[0;91m\]@\h\[\e[0m\] \[\e[1;95m\]\W\[\e[0m\] $(__git_ps1 "(\[\e[1;33m\]%s\[\e[m\])") \[\e[1;33m\]\$\[\e[0m\] '
+# What this looks like (ignoring colors):
+#   In ~/code/faust:
+#   Mon Aug 19 07:59:54 PM chris.rebert@devbox faust (master) $
 
 # colorize `ls` (and other cmd) output
 export CLICOLOR=YES
