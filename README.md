@@ -1,0 +1,4 @@
+bashrc
+======
+
+Basic shell customizations
