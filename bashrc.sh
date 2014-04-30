@@ -36,3 +36,7 @@ pan()
 {
     man -t "${1}" | open -f -a /Applications/Preview.app
 }
+
+# concat multiple PDFs together
+# usage: pdfjoin -o out.pdf file1.pdf file2.pdf
+alias pdfjoin='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
