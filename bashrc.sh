@@ -40,3 +40,6 @@ pan()
 # concat multiple PDFs together
 # usage: pdfjoin -o out.pdf file1.pdf file2.pdf
 alias pdfjoin='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
+
+# for virtualenvwrapper
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
