@@ -47,6 +47,7 @@ pip3 install -U pip
 gem update --system
 npm install -g npm@latest
 # virtualenv tools
+pip install virtualenvwrapper
 gem install -N bundler
 # Ruby packages
 gem install -N jekyll travis
