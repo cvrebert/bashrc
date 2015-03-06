@@ -14,6 +14,8 @@ Manually install:
 * your gitconfig
 * your SSH keys and ~/.ssh/config
 
+# extra directories
+mkdir ~/code ~/venvs
 # git identity
 git config --global user.name "Chris Rebert"
 git config --global user.email "code@chrisrebert.com"
