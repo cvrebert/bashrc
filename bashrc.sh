@@ -42,4 +42,6 @@ pan()
 alias pdfjoin='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
 
 # for virtualenvwrapper
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+export WORKON_HOME=$HOME/venvs
+export PROJECT_HOME=$HOME/code
+source /usr/local/bin/virtualenvwrapper.sh
