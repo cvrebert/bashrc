@@ -41,6 +41,8 @@ pan()
 # usage: pdfjoin -o out.pdf file1.pdf file2.pdf
 alias pdfjoin='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
 
+# for higher GitHub API rate limit for homebrew
+export HOMEBREW_GITHUB_API_TOKEN=XXXXXXXX
 # for virtualenvwrapper
 export WORKON_HOME=$HOME/venvs
 export PROJECT_HOME=$HOME/code
