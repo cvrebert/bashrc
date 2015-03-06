@@ -19,6 +19,8 @@ export CLICOLOR=YES
 export HISTCONTROL=erasedups
 # preserve shell history
 shopt -s histappend
+# enable ** globbing
+shopt -s globstar
 # set history length
 export HISTFILESIZE=10000
 
