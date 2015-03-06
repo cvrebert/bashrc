@@ -45,3 +45,5 @@ alias pdfjoin='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Res
 export WORKON_HOME=$HOME/venvs
 export PROJECT_HOME=$HOME/code
 source /usr/local/bin/virtualenvwrapper.sh
+# for Go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
