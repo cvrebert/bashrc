@@ -22,6 +22,11 @@ shopt -s histappend
 # set history length
 export HISTFILESIZE=10000
 
+# bash completion for homebrew apps
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
 # have `cd` keep history and auto-ls
 cd()
 {
