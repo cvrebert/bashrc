@@ -50,7 +50,7 @@ npm install -g npm@latest
 pip install virtualenvwrapper
 gem install -N bundler
 # Python packages
-pip install unp
+pip install unp ipython
 # Ruby packages
 gem install -N jekyll travis
 # Node.js packages
