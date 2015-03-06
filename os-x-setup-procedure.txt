@@ -1,0 +1,74 @@
+* Tweak all System Preferences
+
+Manually install:
+* Xcode from App Store
+  * install command line tools
+  * accept license
+* Homebrew
+  * `brew doctor` just to confirm
+* Backblaze
+* Chrome
+* Chrome Canary
+* Firefox
+* https://github.com/gorhill/uBlock
+* your gitconfig
+* your SSH keys and ~/.ssh/config
+
+# git identity
+git config --global user.name "Chris Rebert"
+git config --global user.email "code@chrisrebert.com"
+
+# needed for brew to build/install some things
+brew install makedepend swig
+# homebrew all the things
+tools=(bash # more up-to-date
+    git # more up-to-date
+    hub
+    mercurial # git has not yet achieved total world domination
+    ack the_silver_searcher # still deciding
+    jq
+    phantomjs # headless web testing
+    caskroom/cask/brew-cask # to install GUI apps & Java
+)
+langs=(python python3
+    ruby # other respectable scripting lang
+    scala sbt maven # the JVM crowd
+    smlnj ocaml ghc # the FP crowd
+    go rust # the up-and-coming systems crowd
+    lua luajit # extreme minimalism
+    node # because stupid front-end web ecosystem 
+)
+brew install "${tools[@]}" "${langs[@]}"
+# update lang-specific package managers
+pip install -U pip
+pip3 install -U pip
+gem update --system
+npm install -g npm@latest
+# virtualenv tools
+gem install -N bundler
+# Ruby packages
+gem install -N jekyll travis
+# Node.js packages
+npm install -g grunt-cli typescript
+# GUI apps via Cask
+casks=(chromecast # gift from Hulu
+    gimp
+    java # not preinstalled on OS X anymore; no click-thru thanks to Cask
+    licecap # GIF screencasts
+    xquartz # X11
+    vlc
+)
+brew cask install "${casks[@]}"
+
+Use the up-to-date bash from homebrew:
+add /usr/local/bin/bash to /etc/shells
+chsh -s /usr/local/bin/bash
+
+Manually install:
+* IntelliJ
+  * edit IntelliJ.app/Contents/Info.plist to use Java 1.8
+  * tweak Java+Scala syntax formatting
+* PyCharm
+* your bashrc
+  * get & set new GitHub API key for homebrew
+* https://github.com/fingolfin/git-remote-hg or whichever fork is now dominant or some alternative
