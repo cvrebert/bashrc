@@ -1,4 +1,8 @@
 * Tweak all System Preferences
+* Terminal.app:
+  * Set Homebrew profile as default
+  * Tweak Homebrew's font setting
+  * In Keyboard tab, uncheck "Scroll alternate screen" to reobtain sane scroll behavior.
 
 Manually install:
 * Xcode from App Store
