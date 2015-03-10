@@ -57,6 +57,7 @@ gem install -N jekyll travis
 npm install -g grunt-cli typescript
 # GUI apps via Cask
 casks=(chromecast # gift from Hulu
+    colloquy
     gimp
     java # not preinstalled on OS X anymore; no click-thru thanks to Cask
     licecap # GIF screencasts
