@@ -29,6 +29,7 @@ brew install makedepend swig
 # homebrew all the things
 tools=(bash # more up-to-date
     git # more up-to-date
+    gnu-sed # for more convenient -i behavior
     hub
     mercurial # git has not yet achieved total world domination
     ack the_silver_searcher # still deciding
