@@ -35,6 +35,7 @@ tools=(bash # more up-to-date
     ack the_silver_searcher # still deciding
     jq
     phantomjs # headless web testing
+    asciinema # recording console demos
     caskroom/cask/brew-cask # to install GUI apps & Java
 )
 langs=(python python3
