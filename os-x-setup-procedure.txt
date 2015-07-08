@@ -13,7 +13,7 @@ Manually install:
 * Backblaze
 * Chrome
 * Chrome Canary
-* Firefox
+* Firefox Developer Edition
 * https://github.com/gorhill/uBlock
 * your gitconfig
 * your SSH keys and ~/.ssh/config
