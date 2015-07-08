@@ -37,6 +37,7 @@ tools=(bash # more up-to-date
     phantomjs # headless web testing
     asciinema # recording console demos
     qpdf # PDF decryption
+    dos2unix # because Windows
     caskroom/cask/brew-cask # to install GUI apps & Java
 )
 langs=(python python3
