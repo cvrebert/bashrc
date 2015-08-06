@@ -38,12 +38,15 @@ tools=(bash # more up-to-date
     asciinema # recording console demos
     qpdf # PDF decryption
     dos2unix # because Windows
+    youtube-dl
+    moreutils # ts (timestamp) & more
+    graphicsmagick
     caskroom/cask/brew-cask # to install GUI apps & Java
 )
 langs=(python python3
     ruby # other respectable scripting lang
     scala sbt maven # the JVM crowd
-    smlnj ocaml ghc # the FP crowd
+    smlnj objective-caml ghc # the FP crowd
     go rust # the up-and-coming systems crowd
     lua luajit # extreme minimalism
     node # because stupid front-end web ecosystem 
