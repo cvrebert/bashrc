@@ -1,6 +1,8 @@
 (Assumes Ubuntu)
 
 ```bash
+# bloody timezones
+ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
 # remove useless junk
 aptitude remove \
     ppp \
