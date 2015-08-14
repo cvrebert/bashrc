@@ -37,4 +37,8 @@ aptitude remove \
 
 # setup nginx; user = www-data
 aptitude install nginx-light
+rm /etc/nginx/sites-enabled/default
+nano -w /etc/nginx/sites-available/w3bug.com
+ln -s /etc/nginx/sites-available/w3bug.com /etc/nginx/sites-enabled/
+service nginx restart
 ```
