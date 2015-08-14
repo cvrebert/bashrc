@@ -3,6 +3,13 @@
 ```bash
 # bloody timezones
 ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
+# setup firewall
+ufw default allow outgoing
+ufw default deny incoming
+ufw allow ssh
+ufw allow www
+ufw enable
+ufw status verbose
 # remove useless junk
 aptitude remove \
     ppp \
