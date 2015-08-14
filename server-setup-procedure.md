@@ -34,4 +34,7 @@ aptitude remove \
 #    crda \
 #    iw \
 #    wireless-regdb \
+
+# setup nginx; user = www-data
+aptitude install nginx-light
 ```
