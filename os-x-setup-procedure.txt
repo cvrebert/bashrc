@@ -70,6 +70,7 @@ npm install -g grunt-cli typescript
 casks=(chromecast # gift from Hulu
     colloquy
     gimp
+    google-cloud-sdk
     java # not preinstalled on OS X anymore; no click-thru thanks to Cask
     licecap # GIF screencasts
     xquartz # X11
