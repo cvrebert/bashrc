@@ -56,3 +56,6 @@ export PROJECT_HOME=$HOME/code
 source /usr/local/bin/virtualenvwrapper.sh
 # for Go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
+# GCP
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc
